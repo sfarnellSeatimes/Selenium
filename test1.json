@@ -1,0 +1,556 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://seattletimes.com/html/home/index.html"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "container"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img[alt=\"In the small Eastern Washington town of Wellpinit, the local high school gets dragged into the national debate over the sports mascot. From left, James Best, 18; Brodie Ford, 17; Kyra Antone, 17; Triston Andrews, 17; and Sami Parr, 19, attend Wellpinit High. “It’s not a negative name for us,” Antone says.\"]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.co_2_5colvisual.clearfix"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "h2.hed3"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "School with debated mascot: Leave us alone"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "School with debated mascot: Leave us alone"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "html"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "h1.hed6"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.block"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "p.summary"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "p.byline"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "leftcolumn"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.body > p"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "leftcolumn"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "p.source"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "p.summary"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "E-mail article"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#adtop1story > div"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#adtop1story > div > a > img[alt=\"Click here\"]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#adtop1story > div"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "The summer is wide open."
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='rightcolumn']/div[2]/p[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.co_teaser_2col.clearfix"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "ebDefaultImg_21501985_15178342914111442"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "interstitial"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "name",
+        "value": "OAS_RMF_Position3_FLASH"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "overlay"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "Skip Ad"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "overlay"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "Skip Ad"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Skip Ad"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "ebDefaultImg_21501985_15178342914111442"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "adright"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.crosspromo_comments"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.gc_teasers_comment_crosspromo"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='seattletimes_awesome_toggler_target_for_teasers']/div[2]/div[1]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='seattletimes_awesome_toggler_target_for_teasers']/div[3]/div[1]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "admiddle3center"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "510845e01b580"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='body']/p[14]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='body']/p[26]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='body']/p[28]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='body']/p[38]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='body']/p[41]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.body"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "More Local NewsDeputy kills man at Sodo light-rail station"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ob_container_recs']/a[3]/div/div[1]/img"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "img.strip-img"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ob_container_recs']/a[2]/div/div[1]/img"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ob_container_recs']/a[2]/div/div[1]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ob_container_recs']/a[3]/div/div[1]/img"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ob_container_recs']/a[3]/div"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ob_container_recs']/a[4]/div/div[1]/img"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.ob_strip_container.AR_4"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.body"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "leftcolumn"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='ob_container_recs']/a[4]/div/div[1]/img"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.ob_strip_container.AR_4"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "morecontainer"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='body']/p[46]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='body']/p[39]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@class='body']/p[46]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "body.js_disabled.pg_story"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.footer-links.fl_col1"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#footer-bottom-logo > a > img"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "footer-bottom-p1"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "Seattletimes.com"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "footer-bottom-p1"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "Seattletimes.com"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Seattletimes.com"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "div.footer-links.fl_col1"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "body.js_disabled.pg_story"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//body/div[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[2]/div[7]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "DfaVisibilityIdentifier_2499051731960319668"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "#container > div"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "Winner of Nine Pulitzer Prizes"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
