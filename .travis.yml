@@ -1,9 +1,9 @@
-language: note.js
+language: node_js
 before_script:
 	- "npm install -g se-interpreter"
 script:
-	- "se-interporeter selenium/interpreter_config.json"
+	- "se-interpreter selenium/interpreter_config.json"
 env:
-	global
+	global:
 		- SAUCE_USERNAME=imthefrizzlefry
 		- secure: "BkyV+oRMP8FT1nilRwXUUkxaGGnCRRdTTOBhD4AfaFwzQVsndRp2sFt8IxHJEdieDt4fcb2xKJhetlKmTbfRB5JSkvWwYbq872nGB3FLpOeTihp5hKZdjvE6LtvXk5ooHaEKWwor/+3IC3JeZ8ov1tQbbnaWY17I8Q/ou8Gzd1o="
