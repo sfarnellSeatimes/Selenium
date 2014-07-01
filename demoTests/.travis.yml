@@ -5,5 +5,5 @@ script:
 	- "se-interporeter selenium/interpreter_config.json"
 env:
 	global
-		-SAUCE_USERNAME=imthefrizzlefry
-		- secure: "4b284a6d-ef14-4b23-97c1-87f123f85fa1"
+		- SAUCE_USERNAME=imthefrizzlefry
+		- secure: "BkyV+oRMP8FT1nilRwXUUkxaGGnCRRdTTOBhD4AfaFwzQVsndRp2sFt8IxHJEdieDt4fcb2xKJhetlKmTbfRB5JSkvWwYbq872nGB3FLpOeTihp5hKZdjvE6LtvXk5ooHaEKWwor/+3IC3JeZ8ov1tQbbnaWY17I8Q/ou8Gzd1o="
