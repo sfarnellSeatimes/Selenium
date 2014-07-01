@@ -10,7 +10,7 @@
 			  },
 			  "browserOptions": {
 				"browserName": firefox",
-				"username": "${SAUCEUSERNAME}",
+				"username": "${SAUCE_USERNAME}",
 				"accessKey": "${SAUCE_ACCESS_KEY}"
 			  }
 			}	
@@ -18,6 +18,6 @@
 		  "scripts": [
 			"selenium/tests/*"
 		  ]
-		}
-    ]
+	    }
+       ]
 }	
