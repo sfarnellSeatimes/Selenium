@@ -1,0 +1,45 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://seattletimes.com/html/home/index.html"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "News"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "li.nav-business-tech > a"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Sports"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Entertainment"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
